@@ -1,0 +1,97 @@
+/* EmpHistory.css */
+
+.history-add-container {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: -1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cardHis {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-left: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.form-card {
+    max-width: 450px;
+}
+
+.table-card {
+    height: 575px; 
+    margin-left: -100px;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: white;
+    max-height: 575px; /* Adjust the height as needed */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.scrollable-table-container {
+    max-height: 560px;
+    max-width: 1300px;
+    overflow-y: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .history-add-container, .cardHis {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .table-card {
+        margin-left: 0;
+        height: auto;
+    }
+
+    .form-card, .table {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .scrollable-table-container {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .table th, .table td {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .history-add-container, .cardHis {
+        padding: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

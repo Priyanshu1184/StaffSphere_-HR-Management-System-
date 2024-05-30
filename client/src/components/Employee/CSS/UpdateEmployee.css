@@ -1,0 +1,59 @@
+/* UpdateEmployee.css */
+
+.boxcontainer {
+    margin-top: 20px;
+}
+
+.box{
+    width: 80%;
+    height: 465px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header-title {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.header-icon {
+    color: #343a40;
+}
+
+.divider {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-color: #dee2e6;
+}
+
+.rounded {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.no-scrollbar {
+    overflow: hidden;
+}

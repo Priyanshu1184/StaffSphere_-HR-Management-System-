@@ -1,0 +1,108 @@
+  
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-panel, .right-panel {
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="file"] , input[type="number"] , select{
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .marginclass{
+    margin : 9px;
+  }
+  
+  .buttonclass {
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .listli {
+    padding: 8px;
+    margin-bottom: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  select{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 9px;
+  }
+
+  ul li:hover {
+    width: 100%;
+}
+
+  li p {
+    margin: 0;
+  }
+  
+  .module-item {
+    color: #1a73e8;
+  }
+  
+  .position-item {
+    color: #4caf50;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .position-item button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    align-items: end;
+  }
+  
+  .module-item button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }

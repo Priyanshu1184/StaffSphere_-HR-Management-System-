@@ -1,0 +1,46 @@
+.edit-employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.edit-employee-form {
+    padding: 3rem;
+    border-radius: 10px;
+    width: 50%;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-employee-form h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.edit-employee-form .form-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.edit-employee-form .form-control,
+.edit-employee-form .form-select {
+    border-radius: 5px;
+}
+
+.edit-employee-form .btn {
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.edit-employee-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.edit-employee-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}

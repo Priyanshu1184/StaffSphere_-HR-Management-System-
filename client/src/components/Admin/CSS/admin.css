@@ -1,0 +1,117 @@
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px; /* Set a fixed height or adjust as needed */
+    overflow-y: auto; /* Add scrollbar if content overflows */
+  }
+  
+  .box ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .box ul li {
+    margin-bottom: 10px;
+  }
+
+  .cardD {
+    width: 100%;
+    padding: 0.4rem; /* Reduced padding */
+    margin-bottom: 1rem; /* Reduced margin */
+  }
+  
+  .card-header {
+    font-size: 1.2rem; /* Smaller font size */
+    padding: 0.3rem 0.5rem; /* Reduced padding */
+  }
+  
+  .card-body {
+    font-size: 0.9rem; /* Smaller font size */
+    padding: 0.5rem; /* Reduced padding */
+  }
+  
+  .table {
+    font-size: 0.9rem; /* Smaller font size for table */
+  }
+  
+  .btn-sm {
+    font-size: 0.8rem; /* Smaller font size for buttons */
+    padding: 0.3rem 0.5rem; /* Reduced padding */
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.5rem; /* Reduced padding for table cells */
+  }
+  
+.leaveScroll {
+  max-height: 150px;/* Adjust the height as needed */
+  max-width: 100%; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.calContainer{
+  background-color: #f8f9fa;
+  width: 550px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* margin: 10px; */
+}
+
+@media screen and (width <= 600px) {
+  .calContainer{
+    background-color: #f8f9fa;
+    width: 310px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* margin: 10px; */
+    padding-bottom: 28px;
+  }
+}
+/* Calendar.css */
+/* admin.css */
+.leaveScroll {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Add this new CSS for equal height and centering */
+.row-equal-height {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.calendar-container:hover{
+	transform: scale(1.05);
+
+}
+
+.calendar-card {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.table-wrapper-scroll-y {
+  max-height: 100px;
+  overflow-y: auto;
+}

@@ -1,0 +1,64 @@
+/* Centering and aligning the welcome message and image properly */
+.card-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+}
+
+.employee_image {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: auto; /* Pushes the image to the far right */
+}
+
+/* Other existing styles */
+@media (max-width: 1008px) {
+    ul li:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 190px;
+}
+
+.form-control-md {
+    height: 2.5rem; /* Adjust the height as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 190px;
+}
+
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.cardD {
+    transition: transform 0.2s;
+    border: none;
+}
+
+.cardD:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 1rem; /* Add padding to card body */
+}
+
+.employee-card {
+    height: 100%; /* Ensure the card takes full height */
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}

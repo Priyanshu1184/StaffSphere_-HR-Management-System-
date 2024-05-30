@@ -1,0 +1,75 @@
+.leave-request-container {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: -10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.leave-request header {
+    text-align: center;
+}
+
+.leave-request h1 {
+    margin-bottom: 10px;
+}
+
+.leave-table-container {
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px 20px;
+    margin-bottom: 0;
+    background-color: white;
+    max-height: 584px; /* Adjust the height as needed */
+
+}
+
+.leave-table-container thead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.fs-5 {
+    font-size: 1.25rem !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.table-container {
+    max-height: 340px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.table-scrollable-x {
+    max-height: 234px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.table-scrollable-y {
+    max-height: 210px;
+    overflow-x: auto;
+    overflow-y: auto;
+}

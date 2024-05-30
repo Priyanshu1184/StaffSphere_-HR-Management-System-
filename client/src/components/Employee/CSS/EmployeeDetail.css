@@ -1,0 +1,220 @@
+/* EmployeeDetail.css */
+
+.employee-image {
+  height: 200px;
+  width: 195px;
+  border-radius: 50%;
+}
+
+.employee-card {
+  border-radius: 20px;
+}
+.card-header {
+  background-color: transparent !important;
+}
+
+.divider {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+/* LeaveReq.css */
+
+.leave-request {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.divider {
+height: 4px;
+width: 90%;
+background-color: black;
+align-self: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+/* .container{
+background-color: #fff;
+border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+position: relative;
+overflow: hidden;
+
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
+
+width: 500px;
+max-width: 100%;
+min-height: 100px;
+justify-content: center;
+}  */
+/* EmployeeDetail.css */
+/* EmployeeDetail.css */
+
+/* General styles */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.leave-request-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.leave-request header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.leave-request .form-label {
+  font-weight: bold;
+}
+
+.leave-request .form-control {
+  border-radius: 4px;
+}
+
+.leave-request .divider {
+  margin: 20px 0;
+}
+
+.leave-request button {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.leave-request button:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Table styles */
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+  
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: #fff;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.table .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.cardD {
+  border-radius: 10px;
+  margin-bottom:1px;
+  max-height: 500px;
+}
+
+.divider {
+  margin: 0px 60px;
+}
+
+.event-highlight {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.event-marker {
+  background-color: #f43636;
+  font-size: 12px;
+  color: white;
+  padding: 3px 2px;
+  border-radius: 3px;
+}
+
+.calendar {
+  width: 100%;
+  height: 100%;
+}
+
+.employee-card {
+  min-height: 150px;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .leave-request-container, .table {
+    margin-bottom: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}

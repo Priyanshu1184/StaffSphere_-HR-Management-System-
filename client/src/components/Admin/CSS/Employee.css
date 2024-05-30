@@ -1,0 +1,30 @@
+
+.table-responsive {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 1000px;
+    color: #212529;
+  }
+  .detailContainer{
+    width: 100%;
+    padding-top: 1.5%;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.65rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .thead-dark th {
+    color: white;
+    background-color: #343a40;
+    border-color: #454d55;
+  }
