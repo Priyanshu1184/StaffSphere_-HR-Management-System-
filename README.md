@@ -133,4 +133,4 @@ For any further assistance or troubleshooting, please refer to the documentation
 5. Open a pull request.
 
 ## **Contact**
-For any inquiries or feedback, please contact [your-email@example.com].
+For any inquiries or feedback, please contact [sahoopriyanshu1184@gmail.com].
